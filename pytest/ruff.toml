@@ -1,0 +1,6 @@
+# ruff.toml
+line-length = 100
+
+[lint]
+# Mostra o erro de import não usado, mas PROÍBE o Ruff de apagá-lo sozinho
+unfixable = ["F401"]
